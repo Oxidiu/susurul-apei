@@ -1,0 +1,23 @@
+#root {
+    max-width: 100%;
+    margin: 0;
+    width: 100vw;
+    .caruselPoze {
+        display: flex;
+        justify-content: center;
+        .carousel {
+            display: flex;
+            justify-content: center;
+            width: min-content;
+            max-width: 100%;
+            .carousel-item {
+                img {
+                    width: 100vw;
+                }
+            }
+        }
+    }
+}
+
+
+
